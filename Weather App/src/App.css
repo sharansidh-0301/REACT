@@ -1,0 +1,176 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Playwrite+CU:wght@100..400&family=Sour+Gummy:ital,wght@0,100..900;1,100..900&family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700&family=Winky+Rough:ital,wght@0,300..900;1,300..900&display=swap');
+
+*{
+    
+    font-family: "Oswald", sans-serif;
+   
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Oswald', sans-serif;
+    height: 100vh;
+    width: 100vw;
+    overflow: hidden;
+    background-image: url('https://images.unsplash.com/photo-1506748686214-e9df14d4d9d0?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwzNjUyOXwwfDF8c2VhcmNofDJ8fHdlYXRoZXJ8ZW58MHx8fHwxNjg5NTY1NzQ3&ixlib=rb-4.0.3&q=80&w=1080');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    filter: blur(0px);
+    transition: filter 0.3s ease-in-out;
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    -webkit-box-shadow: 0 0 0 100vmax rgba(255, 255, 255, 0.5);
+    box-shadow: 0 0 0 100vmax rgba(255, 255, 255, 0.5);
+}
+.container{
+  display: flex;
+  flex-direction: column;
+  background-color: #F8BD9E;
+  padding: 40px 20px;
+  margin: 50px;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  border-radius: 10px;  
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  width: 400px;
+  display: flex;
+  position: relative;
+  overflow: hidden;
+  transition: all 0.3s ease-in-out;
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);   
+  -webkit-box-shadow: 0 0 0 100vmax rgba(255, 255, 255, 0.5);
+  box-shadow: 0 0 0 100vmax rgba(255, 255, 255, 0.5);
+  filter: blur(0px);
+  transition: filter 0.3s ease-in-out;
+  -webkit-box-shadow: 0 0 0 100vmax rgba(255, 255, 255, 0.5);
+  box-shadow: 0 0 0 100vmax rgba(255, 255, 255, 0.5);
+  animation: fadeIn 0.5s ease-in-out;
+}
+
+.input-container{
+  display: flex;
+  width: 100%;
+  align-items: center;
+  border: 2px solid #000;
+  border-radius: 5px;
+  overflow: hidden;
+
+}
+
+.input-container input{
+  border: none;
+  outline: none;
+  height: 30px;
+  flex: 1;
+  padding: 5px;
+  font-size: 16px;
+  outline: none;
+  background-color: #E6B2BA;
+  border-radius: 5px;
+}
+.input-container img{
+  width: 30px;
+  height: 30px;
+  margin-left: 5px;
+  cursor: pointer;
+  transition: transform 0.3s;
+}
+
+.weather-container{
+  text-align: center;
+  margin-top: 10px;
+}
+.weather-container img{
+  width: 150px;
+  height: 150px;
+}
+
+.temp,
+.city,
+.country {
+  font-size: 24px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+.temp {
+  font-size: 48px;
+  font-weight: 700;
+}
+.city {
+  font-size: 24px;
+  font-weight: 400;
+  color: crimson;
+}
+.country {
+  font-size: 18px;
+  font-weight: 400;
+  color: #394f8b;
+}
+
+.cord{
+  display: flex;
+  justify-content: space-evenly;
+  font-size: 16px;
+  font-weight: 400;
+  color: #394f8b;
+}
+
+.lat,
+.long {
+  font-size: 14px;
+  text-transform: uppercase;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 400;
+  color: #54551f;
+}
+.cord div span:nth-child(2){
+  font-weight: 700;
+}
+
+.data-container{
+  display: flex;
+  gap: 240px;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.data-container img{
+  width: 70px;
+  height: 70px;
+}
+
+.loading,
+.cityNotFound,
+.error{
+  font-size: 24px;
+  font-weight: bold;
+  text-align: center;
+  margin-top: 20px;
+}
+footer{
+  text-align: center;
+  margin-top: 20px;
+  font-size: 14px;
+  color: #000;
+  font-weight: 400;
+  text-transform: uppercase;
+  font-family: 'Playfair Display', serif;
+  font-style: italic;
+  color: #394f8b;
+  text-decoration: underline;
+  text-decoration-color: #000;
+  text-decoration-thickness: 2px;
+  text-underline-offset: 4px;
+  margin-bottom: 20px;
+  font-size: 18px;
+}
