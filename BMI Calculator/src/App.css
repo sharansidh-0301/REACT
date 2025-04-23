@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400..900&family=Italianno&family=Oswald:wght@200..700&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Playwrite+CU:wght@100..400&family=Sour+Gummy:ital,wght@0,100..900;1,100..900&family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700&family=Winky+Rough:ital,wght@0,300..900;1,300..900&display=swap');
+*{
+    
+  font-family: Cinzel , sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(to right, #ff7e5f, #feb47b);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.bmi-container{
+  width: 1000px;
+  background-color: #FFF;
+  color: #333;
+  font-family: 'Playfair Display', serif;
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0px 0px 20px rgba(0,0,0,0.5);
+  display: flex;
+}
+
+.img{
+  width: 350px;
+  background-image: url('https://images.unsplash.com/photo-1601758123927-3c0f2a1b4e5d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwzNjUyOXwwfDF8c2VhcmNofDJ8fGJpbXxlbnwwfHx8fDE2OTYxNTQyMjA&ixlib=rb-4.0.3&q=80&w=400');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.data{
+  flex: 1;
+  padding: 15px;
+}
+
+.data h1{
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+  font-weight: 700;
+  color: #333;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  text-shadow: 1px 1px 2px rgba(0,0,0,0.2);
+}
+
+.input-weight{
+  margin-bottom: 20px;
+}
+label{
+  display: flex;
+  margin-bottom: 15px;
+  color: #888;
+}
+
+input{
+
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 1rem;
+  color: #333;
+  background-color: #f9f9f9;
+}
+
+button{
+  background-color:  #3D90D7 ;
+  color: #fff;
+  padding: 10px 20px;
+  font-size: 26px;
+  cursor: pointer;
+  
+}
+button:hover{
+  background-color: #60B5FF;
+}
+
+.result{
+  margin-top: 20px;
+  font-size: 1.5rem;
+  text-align: center;
+  color: #333;
+  font-weight: 700;
+  border: 2px solid #ff7e5f;
+  padding: 20px;
+  border-radius: 10px;
+  background-color: #fff;
+  box-shadow: 0px 0px 10px rgba(0,0,0,0.2);
+  transition: all 0.3s ease;
+
+}
+
+.result p{
+  margin: 10px 0;
+  color: #555;
+}
+
+.result p:first-child{
+  font-size: 2rem;
+  color: #ff7e5f;
+  font-weight: bold;
+}
+
+.error-msg{
+  font-size: 16px;
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.btn{
+  display: flex;
+  justify-content: space-between;
+}
+
+#clear-btn{
+  background-color: #E83F25;
+}
+
+#clear-btn:hover{
+  background-color: #F16767 ;
+}
