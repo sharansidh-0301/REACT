@@ -149,7 +149,7 @@ function App() {
       {error && <div className="error">{error}</div>}
       {!loading && !cityNotFound  && <WeatherDetails icon={icon} temp={temp} city={text} country={country} lat={lat} long={long} humidity={humidity} wind={wind} />}
       <footer>
-        <p>Developed By <a href="">SIDH</a></p>
+      <p className="footer">Made with ❤️ by <a href="https://www.linkedin.com/in/sharansidh0301/" target="_blank" rel="noopener noreferrer">Sidh</a></p>    
       </footer>
     </div>
     </>

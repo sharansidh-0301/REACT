@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400..900&family=Geo:ital@0;1&family=Italianno&family=Oswald:wght@200..700&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Playwrite+CU:wght@100..400&family=Sour+Gummy:ital,wght@0,100..900;1,100..900&family=Spectral:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,300;1,400;1,500;1,600;1,700;1,800&family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700&family=Winky+Rough:ital,wght@0,300..900;1,300..900&display=swap');
+
+*{
+  font-family: Cinzel;
+  box-sizing: 0;
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  position: absolute;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #A53860 ;
+}
+
+.digital-clock{
+  background-color: #670D2F;
+  color: #FEF3E2;
+  padding: 30px;
+  width: 500px;
+  border-radius: 10px;
+  box-shadow: #A53860;
+}
+
+h1{
+  margin-bottom: 20px;
+  text-align: center;
+  letter-spacing: 5px;
+  font-size: 46px;  
+  border: 1px dashed ;
+}
+.time{
+
+  font-size: 46px;
+  text-align: center;
+  font-weight: 500;
+  letter-spacing: 10px;
+  margin-bottom: 20px;
+}
+.day{
+  font-size: 20px;
+  text-align: center;
+  letter-spacing: 3px;
+  font-weight: 100;
+}
+p{
+  font-size: 20px;
+  position: relative;
+  text-align: center;
+  top: 200px;
+
+  color: #FEF3E2;
+}
+  a{
+  color: #f0c4d5;
+}
