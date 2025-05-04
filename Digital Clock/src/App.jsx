@@ -39,7 +39,6 @@ function App() {
     </div>
     <footer>
     <p className="footer">Made with ❤️ by <a href="https://www.linkedin.com/in/sharansidh0301/" target="_blank" rel="noopener noreferrer">Sidh</a></p>    
-
     </footer>
     </>
   )
